@@ -8,6 +8,9 @@
   },
   "devDependencies": {
     "css-loader": "^3.4.2",
+    "file": "^0.2.2",
+    "file-loader": "^5.0.2",
+    "loader": "^2.1.1",
     "node-sass": "^4.13.1",
     "sass-loader": "^8.0.2",
     "webpack": "^4.41.5",
@@ -20,12 +23,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Zilvinas333/codeacademy.git"
+    "url": "git+https://github.com/Zilvinas333/mano_projektas.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Zilvinas333/codeacademy/issues"
+    "url": "https://github.com/Zilvinas333/mano_projektas/issues"
   },
-  "homepage": "https://github.com/Zilvinas333/codeacademy#readme"
+  "homepage": "https://github.com/Zilvinas333/mano_projektas#readme"
 }

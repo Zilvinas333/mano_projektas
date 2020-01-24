@@ -1,0 +1,24 @@
+.example {
+  border: 10px solid;
+  background-color: yellow;
+  width: 500px;
+  height: 500px;
+  margin: 0 auto; }
+  .example__second {
+    background-color: blue;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    background-image: url(../images/component.svg); }
+  .example__third {
+    background-color: brown;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    background-image: url(../images/colors.svg); }
+    .example__third__inside {
+      background-color: aqua;
+      width: 100px;
+      height: 100px;
+      margin: 0 auto; }
+

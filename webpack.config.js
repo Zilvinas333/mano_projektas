@@ -17,11 +17,20 @@ module.exports = {
           'sass-loader',
         ],
       },
+      {
+        test: /\.(png|svg|jpg|gif)$/,
+        loader: 'file-loader',
+        options: {
+          name: '[name].[ext]',
+          outputPath: 'assets/images',
+          publicPath: '../images'
+        },
+      }
     ],
   },
   plugins: [
     new MiniCssExtractPlugin({
-        filename: 'app.css',
+        filename: 'assets/styles/style.css',
     }),
   ]
 };
